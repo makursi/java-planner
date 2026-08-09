@@ -1,26 +1,26 @@
-# Java 每日计划
+# Java Daily Planner
 
-一个用于日常 Java 学习打卡的轻量网页应用。按时间段列出每天的学习任务（Java 与前端练习），逐项勾选完成，数据保存在浏览器本地。全部完成后自动重置到新的一天，也支持手动重置今日任务。
+A lightweight web app for daily Java study check-ins. It lists each day's study tasks (Java and frontend practice) by time block, and you check them off one by one — progress is stored locally in the browser. When all tasks are done, it automatically resets for a new day; you can also reset today's tasks manually.
 
-## 功能
+## Features
 
-- 每日学习清单：按「早/午/晚前/晚后」时段展示学习任务
-- 勾选打卡：点击即可标记完成，进度实时显示
-- 本地持久化：利用 localStorage 保存当日进度，跨天自动重置
-- 自定义配置：标题、存储键、重置延迟、时间块均可通过环境变量调整
+- Daily task list: study tasks grouped by period (early / noon / early evening / evening)
+- Check-in: click to mark a task done, with real-time progress display
+- Local persistence: daily progress saved via localStorage, auto-reset across days
+- Configurable: title, storage key, reset delay, and time blocks are adjustable via environment variables
 
-## 技术栈
+## Tech Stack
 
 - Vue 3 + Vite + TypeScript
-- UnoCSS 原子化样式
-- reka-ui 组件库
-- Netlify 部署
+- UnoCSS atomic styles
+- reka-ui components
+- Netlify deployment
 
-## 开发
+## Development
 
 ```bash
 pnpm install
 pnpm dev
 ```
 
-构建：`pnpm build`
+Build: `pnpm build`
